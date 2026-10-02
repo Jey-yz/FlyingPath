@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/gunmu"
+  },
+"overrides": [
+    {
+      "predicate": {
+        "variant": 1
+      },
+      "model": "contenttweaker:item/easter_egg_1"
+    },
+    {
+      "predicate": {
+        "variant": 2
+      },
+      "model": "contenttweaker:item/easter_egg_2"
+    },
+    {
+      "predicate": {
+        "variant": 3
+      },
+      "model": "contenttweaker:item/easter_egg_3"
+    },
+    {
+      "predicate": {
+        "variant": 4
+      },
+      "model": "contenttweaker:item/easter_egg_4"
+    }
+  ]
+}

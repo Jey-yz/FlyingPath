@@ -1,0 +1,8 @@
+setIcon(<minecraft:beacon>)
+setShowToast(false)
+setAnnounceToChat(false)
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setTranslatedTitle("advancement.chapter1_root.title")
+setTranslatedDescription("advancement.chapter1_root.description")
+setPos(-167,-5)
+addCriteria("c1root","minecraft:location")

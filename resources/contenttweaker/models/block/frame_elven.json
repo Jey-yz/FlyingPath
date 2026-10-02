@@ -1,0 +1,10 @@
+{
+  "parent": "thermalexpansion:blocks/frame_base",
+  "textures": {
+    "particle": "contenttweaker:blocks/elven_frame_top",
+    "down": "contenttweaker:blocks/elven_frame_bottom",
+    "up": "contenttweaker:blocks/elven_frame_top",
+    "side": "contenttweaker:blocks/elven_frame_side",
+    "inner": "contenttweaker:blocks/elven_frame_inner"
+  }
+}

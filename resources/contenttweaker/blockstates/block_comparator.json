@@ -1,0 +1,51 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "front": "contenttweaker:blocks/block_comparator_front",
+            "side": "minecraft:blocks/observer_back",
+	        "particle": "contenttweaker:blocks/block_comparator_front"
+        },
+        "model": "contenttweaker:block_comparator",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [
+            {}
+        ],
+        "inventory": [
+            {}
+        ],
+        "axis=x,powered=false": [{
+            "model": "contenttweaker:block_comparator",
+            "y": 90
+        }],
+        "axis=y,powered=false": [{
+            "model": "contenttweaker:block_comparator",
+            "x": 90
+        }],
+        "axis=z,powered=false": [{
+
+        }],
+        "axis=x,powered=true": [{
+            "model": "contenttweaker:block_comparator",
+            "y": 90,
+            "textures": {
+                "side": "minecraft:blocks/observer_back_lit"
+            }
+        }],
+        "axis=y,powered=true": [{
+            "model": "contenttweaker:block_comparator",
+            "x": 90,
+            "textures": {
+                "side": "minecraft:blocks/observer_back_lit"
+            }
+        }],
+        "axis=z,powered=true": [{
+            "textures": {
+                "side": "minecraft:blocks/observer_back_lit"
+            }
+        }]
+
+    }
+}

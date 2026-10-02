@@ -1,0 +1,8 @@
+setIcon(<botania:pylon,meta:1>)
+setShowToast(true)
+setAnnounceToChat(false)
+setBackground("botania:textures/blocks/pillarmanaquartz0.png")
+setTranslatedTitle("advancement.chapter2_root.title")
+setTranslatedDescription("advancement.chapter2_root.description")
+setPos(-408,-4)
+CriteriaChapter2Root0 = addCriteria("c2root","botania:open_elf_portal")

@@ -1,0 +1,36 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "front": "#front",
+        "side": "#side"
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#side"
+                },
+                "down": {
+                    "texture": "#side"
+                },
+                "west": {
+                    "texture": "#side",
+                    "rotation": 90
+                },
+                "east": {
+                    "texture": "#side",
+                    "rotation": 270
+                },
+                "north": {
+                    "texture": "#front"
+                },
+                "south": {
+                    "texture": "#front"
+                }
+            }
+        }
+    ]
+}

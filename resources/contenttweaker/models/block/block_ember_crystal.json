@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/block_ember_crystal_side",
+        "down": "contenttweaker:blocks/block_ember_crystal_bottom",
+        "up": "contenttweaker:blocks/block_ember_crystal_top",
+        "north": "contenttweaker:blocks/block_ember_crystal_side",
+        "east": "contenttweaker:blocks/block_ember_crystal_side",
+        "south": "contenttweaker:blocks/block_ember_crystal_side",
+        "west": "contenttweaker:blocks/block_ember_crystal_side"
+    }
+}
